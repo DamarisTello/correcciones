@@ -40,6 +40,7 @@ body {
 	z-index: 2;
 	transition: .3s ease all;
 }
+
 h1{
     font-family: 'Shantell Sans', cursive;
     text-overflow: ellipsis;
@@ -55,26 +56,9 @@ h1{
     top: 50%;
     left: 50%;
     transition: .3s ease-in-out all;
+    border-radius: 100px;
 }
 .boton:hover::after{
     transform: scale(400);
     background-color: orange;
-    display: inline;
-    padding-left: 450px;
-    color: black;
-    letter-spacing: 2px;
-    font-size: 24px;
-    text-decoration: none;
-    overflow: hidden;
-    transition: 0.2s;
- 
-}
-.boton:hover{
-    background: #ff4400c5 ;
-    box-shadow: 0 0 10px #ff4400c5  , 0 0 40px #ff4400c5, 0 0 80px #ff4400c5;
-}
-
-
-
-
-
+ }

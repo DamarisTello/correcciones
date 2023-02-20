@@ -47,17 +47,31 @@ h1{
 
 .boton::after{
     content: "";
-    width: 15px;
-    height: 15px;
-    background-color: rgb(255, 0, 0);
+    width: 1px;
+    height:1px;
+    background-color:none ;
     position: absolute;
     z-index: 1;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
     transition: .3s ease-in-out all;
 }
 .boton:hover::after{
-top: 0;
+    transform: scale(400);
+    background-color: orange;
+    display: inline;
+    padding-left: 450px;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+ 
+}
+.boton:hover{
+    background: #ff4400c5 ;
+    box-shadow: 0 0 10px #ff4400c5  , 0 0 40px #ff4400c5, 0 0 80px #ff4400c5;
 }
 
 

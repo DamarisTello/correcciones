@@ -7,7 +7,7 @@
 #principal{
     width: auto;
     height:1000px;
-	background: aliceblue;
+	background: rgb(216, 209, 202);
 }
 body {
 	background: aliceblue;
@@ -20,6 +20,7 @@ body {
 	gap: 1px;
     flex-direction: column;
     justify-content: end;
+    margin-top: 100px;
 
 }
 /*solo cambio lo que esta dentro del boton*/
@@ -40,6 +41,7 @@ body {
 	transition: .3s ease all;
 	border-radius: 5px;
 	overflow: hidden;
+    margin: auto;
 }
 .boton span {
 	z-index: 2;
@@ -78,6 +80,7 @@ body {
 .h1{
     width: 100%;
     height: 100px;
+    margin: auto;
     font-family: 'Shantell Sans', cursive;
     text-overflow: ellipsis;
     color: #fff;
@@ -87,9 +90,10 @@ body {
 }
 h1{
     margin-left: 10px;
+
 }
 .logo_superior{
-    width: 100x;
+    width: 100px;
     height: 100px;
     background-color: black;
 }
@@ -99,11 +103,11 @@ img{
 }
 
 nav{
-    margin-top:50px;
+    margin-top:10px;
     background-color: black;
 }
 .seccion1{
-    margin-top: 2px;
+    margin: auto;
 }
 
 /*banner*/
@@ -117,6 +121,7 @@ nav{
     width: 100%;
     height:300px;
    border-color: #141414;
+   border-style:solid ;
 }
 /*nombre central*/
 .pag{
@@ -154,7 +159,7 @@ nav{
     
 }
 h2{ 
-    font-size: rem;
+    font-size: 1,5rem;
     font-family:'Roboto', sans-serif;
     font-style:italic;
 }
@@ -211,4 +216,107 @@ p{
 }
 .sangria{
     padding-left: 40px;
+}
+
+/*tabla para game info*/
+table{
+    display:flexbox;
+	align-items: center;
+	justify-content:center;
+    flex-wrap: wrap;
+	width: 90%;
+	height: 40px;
+	background:#272727;;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	border: none;
+    margin: auto;
+    margin-top: 10px;
+    border-color:#070707;;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    text-align: center;
+}
+caption{
+    background-color: rgb(143, 143, 135);
+    border-color:black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+
+}
+h3{
+    font-size: 25px;
+
+}
+thead th{
+    width: 100%;
+    height:100%;
+    background-color: rgb(120, 129, 129);
+    font: size 1rem;
+    
+    
+}
+tbody td {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(143, 143, 135);
+    font-size: medium;
+    
+    
+}
+.fecha{
+    background-color: #444444;
+    margin: auto;
+    width: 20%;
+    height: auto;
+
+}
+.team{
+    background-color: rgb(141, 140, 139);
+    width: 25%;
+    height: fit-content; 
+    margin: 10px;
+}
+.loc{
+    background-color:  rgb(120, 129, 129);
+    width: 40%;
+    height: fit-content; 
+    margin: 10px;
+}
+.time{
+    background-color: rgb(120, 129, 129);
+}
+div{
+    display: flexbox;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #444444ad;
+    width: 90%;
+    height: 150px;
+    border-radius: 5px;
+
+}
+.p_game{
+    margin: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+    color: aliceblue; 
+}
+#facility{
+    font-size: 20px ;
+    margin: 10px;
+    margin-top: 10px;
+
+}
+#span{
+    font-weight: bold;
+    font-size: 16px;
+    font-family:'Roboto', sans-serif;
 }

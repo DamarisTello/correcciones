@@ -22,12 +22,12 @@
     
         </header>
         <nav class="contenedor-botones">
-            <a href="./index.html"><button class="boton"><span> Home </span></button></a>
-            <a href="./about.html"><button class="boton"><span> About </span></button></a>
-            <a href="./contact.html"><button class="boton"><span> Contact </span></button></a>
-            <a href="./game_info.html"><button class="boton"><span> Game Info</span></button></a>
-            <a href="./rules.html"><button class="boton"><span> Rules </span></button></a>
-            <a href="#"><button class="boton"><span> Registro </span></button></a>  
+            <a href="./index.html"> Home </a>
+            <a href="./about.html"> About</a>
+            <a href="./contact.html"> Contact </a>
+            <a href="./game_info.html"> Game Info</a>
+            <a href="./rules.html"> Rules</a>
+            <a href="#"> Registro </a>  
         </nav>
     
         <section class="seccion1">
@@ -35,9 +35,156 @@
             <img id="banner" src="./imagenes/banner/banner2.jpg" alt="banner1">
             </div>
             <div class="pag">
-            <h2>Registro</h2>
+            <h2>Registration Form </h2>
             </div>
         </section>
+
+        <form action="./show_data.html">
+            <FIeldset>
+            <legend>Personal information</legend>
+            <label for="nombre">Player's First Name:</label>
+            <input required name="nombre" type="text" id="nombre">
+            <label for="aplellido">Last Name:</label>
+            <input required name="apellido" type="text" id="apellido">
+            <label for="">
+                Street Address:
+                <input name="street"  type="text">
+            </label><br>
+            <label for="">
+                City:
+                <input  name="city" type="text">
+                Zip Code:
+                <input required name="zip" maxlength="10 "type="number">
+            </label><br>
+            <label for="">
+                Birth Date:
+                <input type="date">
+            </label>
+
+            <input type="submit">
+            </FIeldset>
+            <fieldset>
+                <p>Gender:</p>
+                <label for="">
+                    Female
+                    <input name="Female" type="checkbox">
+                </label>
+                <label for="">
+                    Male
+                    <input name="male" type="checkbox">
+                </label><br>
+                <p>Grade</p>
+                <label for="">
+                 Pre-School
+                 <input name="Pre" type="checkbox">
+                </label>
+                <label for="">
+                    1st
+                    <input name="1" type="checkbox">
+                </label>
+                <label for="">
+                   2nd
+                  <input name="2" type="checkbox">
+                </label>
+                <label for="">
+                  3rd
+                 <input name="3" type="checkbox">
+                </label>
+                <label for="">
+                    4th
+                    <input name="4" type="checkbox">
+                </label>
+                <label for="">
+                    5th
+                    <input name="5" type="checkbox">
+                </label>
+                
+            </fieldset>
+            <fieldset>
+                <p>Which elementary school do you live near?</p>
+                <p>Clset school</p>
+                <label for="">
+                    AJ Katzenmaier
+                    <input name="aj" type="checkbox">
+                </label>
+                <label for="">
+                    Marjorie P Hart
+                    <input name="mph" type="checkbox">  
+                </label><br>
+                <label for="">
+                    Greenbay
+                    <input name="greenbay" type="checkbox">
+                </label>
+                <label for="">
+                    North Elementary
+                    <input name="nort" type="checkbox">
+                </label><br>
+                <label for="">
+                    Howard A Yeager           
+                    <input name="howard" type="checkbox">
+                </label>
+                <label for="">
+                    South Elementary
+                    <input name="south" type="checkbox">  
+                </label><br>
+
+                <p>What position(s) do you normally play? (check all that apply) </p><br>
+                <label for="">
+                    Forward
+                    <input name="Forward" type="checkbox">
+                </label>
+                <label for="">
+                    Midfield
+                    <input name="midfield" type="checkbox">
+                </label><br>
+                <label for="">
+                    Defense
+                    <input name="defense" type="checkbox">
+                </label>
+                <label for="">
+                    Goalkeeper
+                    <input name="goal" type="checkbox"> 
+                </label><br>
+
+                <p>Uniform Size:</p>
+                <label for="">
+                    Youth Smal
+                    <input name="youth s" type="checkbox">
+                </label>
+                <label for="">
+                    Medium
+                    <input name="m" type="checkbox">
+                </label><br>
+                <label for="">
+                    Youth Medium
+                    <input name="Youth M" type="checkbox">
+                </label>
+                <label for="">
+                    Large
+                    <input name="l" type="checkbox">
+                </label><br>
+                <label for="">
+                    Youth Large
+                    <input name=" youth l" type="checkbox">
+                </label>
+                <label for="">
+                    Extra-Large
+                    <input name="extra l" type="checkbox">
+                </label>
+                
+                <label for="">
+                    Small
+                    <input name="s" type="checkbox">
+                </label>
+                <input type="submit">
+
+            </fieldset>
+
+            
+        </form>
+        <h3>Permission to Play</h3>
+        <p>I, the parent or guardian of the minor registrant, agree that the registrant and |, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League” accepting the registrant for its hockey programs and activities, | hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation </p>
+
     
 </body>
 </html>

@@ -137,35 +137,30 @@ nav{
 .seccion1_rules{
     display: flex;
     width: 75vw;
-    height: 50vh;
+    height: 75vh;
     flex-wrap: wrap;
     justify-content:center;
     align-items: center;
     flex-direction: column;
     margin: auto;
-    list-style-type: lower-roman;
-   
+    
 }
 .logo_reglas{
     width: 200px;
     height: auto;
+    background-color:aliceblue;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 20px;
 }
 h2{ 
-    font-size: rem;
+    font-size: 2rem;
     font-family:'Roboto', sans-serif;
-    font-style:italic;
 }
-#sub_rules{
-    font-size:large;
-}
-
 .seccion2_rules{
     display: flex;
-    width: 75vw;
-    height: auto;
+    width:75vw;
+    height: 75vh;
     flex-wrap: wrap;
     justify-content:flex-start;
     flex-direction: column;
@@ -177,38 +172,13 @@ h2{
     gap: 5px;
 }
 .h3_seccion2{
-    margin: 30px;
-    padding-left: 20px;
-    gap: 50px;
-    margin: 20px;
+    margin-top:20px;
+    margin-left: 10px;
 }
 p{
-    margin-left: 40px;
+    margin-left: 20px;
 }
-
 .lista{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap:10px;
-    margin-left: 30px;
-
+    list-style-type: armenian;
 }
 
-.espaciado_de_fila{
-    padding-left: 10px;
-    gap: 50px;
-    margin: 20px;
-}
-#mayor_tamaño_lista{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    font-size: 1.17em;
-    font-weight: bold;
-    display: flex;
-}
-.sangria{
-    padding-left: 40px;
-}

@@ -7,10 +7,10 @@
 #principal{
     width: auto;
     height:1000px;
-	background: #4b4a4ac5;
+	background: aliceblue;
 }
 body {
-	background: #4b4a4ac5;
+	background: aliceblue;
 }
 /*reveer tamaño de botones*/
 .contenedor-botones {
@@ -41,9 +41,7 @@ body {
 	border-radius: 5px;
 	overflow: hidden;
 }
-
 .boton span {
-	
 	z-index: 2;
 	transition: .3s ease all;
 }
@@ -59,7 +57,7 @@ body {
     border-radius: 100px;
 }
 .boton:hover::after{
-    transform: scale(400);
+    transform: scale(200);
     background-color: orange;
  }
  /*titulos*/
@@ -84,6 +82,7 @@ body {
     text-overflow: ellipsis;
     color: #fff;
     background-color: black;
+    text-shadow: 2px 2px orange;
     font-size: 1.5rem;
 }
 h1{
@@ -149,5 +148,47 @@ footer{
     height: auto;
     background-color: red;
 }
-
+.seccion1_rules{
+    display: flex;
+    width: 75vw;
+    height: 75wh;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.logo_reglas{
+    width: 200px;
+    height: auto;
+    background-color:aliceblue;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+h2{ 
+    font-size: 2rem;
+    font-family:'Roboto', sans-serif;
+}
+.seccion2_rules{
+    display: flex;
+    width:75vw;
+    height: 75vh;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    flex-direction: column;
+    margin: auto;
+    background-color:#111111d3;
+    border-color: orangered;
+    border-radius: 10px;
+    color: aliceblue;
+    gap: 5px;
+}
+.h3_seccion2{
+    margin-top:20px;
+    margin-left: 10px;
+}
+p{
+    margin-left: 20px;
+}
 

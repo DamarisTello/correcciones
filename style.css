@@ -133,29 +133,16 @@ nav{
 	border: none;
 	margin-top: 5px;
 }
-article{
-    width: 300px;
-    height: 200px;
-    background-color: green;
-}
-aside{
-    width: 500px;
-    height: 250px;
-    background-color: aqua;
-}
-footer{
-    width: auto;
-    height: auto;
-    background-color: red;
-}
+
 .seccion1_rules{
     display: flex;
     width: 75vw;
-    height: 75wh;
+    height: 75vh;
     flex-wrap: wrap;
     justify-content:center;
     align-items: center;
     flex-direction: column;
+    margin: auto;
     
 }
 .logo_reglas{
@@ -190,5 +177,8 @@ h2{
 }
 p{
     margin-left: 20px;
+}
+.lista{
+    list-style-type: armenian;
 }
 

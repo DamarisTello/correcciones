@@ -6,7 +6,7 @@
 /*imagen de fondo*/
 #principal{
     width: auto;
-    height:1000px;
+    height: 10px;
 	background: rgb(216, 209, 202);
 }
 body {
@@ -147,7 +147,7 @@ nav{
     background-color: #444444;
     margin: auto;
 }
-.h3{
+article{
     flex-direction: center;
     align-content: center;
     margin:auto;
@@ -156,6 +156,14 @@ nav{
     font-size:15px;
     color: #141414;
     margin: auto;
+    border:5px;
+    font-size: medium;
+    color: #fff;
+}
+img{
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
 }
 
 .seccion1_rules{
@@ -338,4 +346,49 @@ div{
     font-weight: bold;
     font-size: 16px;
     font-family:'Roboto', sans-serif;
+}
+.mapa{
+    width:auto;
+    height: auto;
+}
+
+iframe{
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 20px;
+    width: auto;
+    justify-content: flex-start;
+    border-radius: 10px;
+    
+}
+fieldset{
+    display: flex;
+    justify-content: center;
+    align-content:start;
+    flex-wrap: wrap;
+   
+    background-color: #363030bd;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 2px;
+    width: 60%;
+    margin: auto;
+
+}
+legend{
+    font-size: 1rem;
+}
+p{ font-size: 1rem;
+    margin: 10px;
+
+}
+label{
+    flex-direction: row;
+}
+.article_about{
+    flex-direction:row;
+    width: 80%;
+    height: auto;
 }
